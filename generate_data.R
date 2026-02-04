@@ -68,15 +68,15 @@ generateData <- function(n, AR_par, SHASH_par, random = TRUE){
 
 # ---- Parameters used for the synthetic log vol plot  ----
 
-# True AR(1) parameters
-true_AR_params <- list(
-  alpha = -4.4,
-  phi = 0.975,
-  mu = 0
-)
-# True SV parameters
-true_SV_params <- list(
-  sigma = 0.001,
-  epsilon = 0.150,
-  delta = 0.330
-)
+# # True AR(1) parameters
+# true_AR_params <- list(
+#   alpha = -4.4,
+#   phi = 0.975,
+#   mu = 0
+# )
+# # True SV parameters
+# true_SV_params <- list(
+#   sigma = 0.001,
+#   epsilon = 0.150,
+#   delta = 0.330
+# )
