@@ -192,7 +192,7 @@ SV_Model_SHASH_inference <- function(data, fixed_SV_params = list(), normal_tran
     }
     if("phi" %in% names(fixed_SV_params)){
       par0$psi <- atan(fixed_SV_params$phi)
-      map$alpha <- factor(NA)
+      map$psi <- factor(NA)
     }
     if("epsilon" %in% names(fixed_SV_params)){
       par0$epsilon <- fixed_SV_params$epsilon
